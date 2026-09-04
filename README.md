@@ -1,16 +1,78 @@
-# React + Vite
+# Algoryx Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive business analytics dashboard built with React, Vite, Tailwind CSS, Lucide React, and Framer Motion.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+https://algoryx-dashboard-8wfp7s2h9-tisha456.vercel.app
 
-## React Compiler
+## GitHub Repository
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+https://github.com/Tisha456/algoryx-dashboard
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Responsive dashboard layout
+- Responsive sidebar navigation
+- Top navigation bar
+- Dashboard overview statistics
+- Recent activity and orders table
+- Search functionality for orders
+- Notification panel
+- User profile card
+- Interactive hover effects
+- Smooth animations using Framer Motion
+- Responsive design for desktop, tablet, and mobile
+- Clean and reusable React components
+
+## Technologies Used
+
+- React
+- Vite
+- Tailwind CSS
+- Lucide React
+- Framer Motion
+- JavaScript
+- Git and GitHub
+- Vercel
+
+## Dashboard Components
+
+The project is organized into reusable components:
+
+- Sidebar
+- Navbar
+- StatCard
+- ActivityTable
+- ProfileCard
+- NotificationPanel
+
+## Project Structure
+
+```text
+algoryx-dashboard/
+│
+├── public/
+│
+├── src/
+│   ├── components/
+│   │   ├── ActivityTable.jsx
+│   │   ├── Navbar.jsx
+│   │   ├── NotificationPanel.jsx
+│   │   ├── ProfileCard.jsx
+│   │   ├── Sidebar.jsx
+│   │   └── StatCard.jsx
+│   │
+│   ├── data/
+│   │   └── dashboardData.js
+│   │
+│   ├── pages/
+│   │   └── Dashboard.jsx
+│   │
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+│
+├── package.json
+├── vite.config.js
+└── README.md
