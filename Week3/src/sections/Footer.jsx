@@ -73,9 +73,9 @@ function Footer() {
             </h3>
 
             <p className="mt-4 leading-7 text-slate-400">
-              Earth model sourced from the Algoryx Community and
-              integrated into the website using Three.js and
-              React Three Fiber.
+              AgroSence smart-agriculture model featuring solar-powered
+              sensing technology, integrated into the website using
+              Three.js and React Three Fiber.
             </p>
 
             <a

@@ -27,7 +27,7 @@ function App() {
         {/* How It Works Section */}
         <HowItWorks />
 
-        {/* 3D Earth Section */}
+        {/* AgroSence 3D Section */}
         <section
           id="model"
           className="bg-slate-950 px-6 py-24 text-white"
@@ -36,16 +36,16 @@ function App() {
 
             <div className="mb-12 text-center">
               <p className="text-sm font-semibold uppercase tracking-widest text-green-400">
-                Algoryx 3D Asset
+                AgroSence 3D Asset
               </p>
 
               <h2 className="mt-3 text-4xl font-bold md:text-5xl">
-                Explore Our Planet
+                Explore AgroSence in 3D
               </h2>
 
               <p className="mx-auto mt-5 max-w-2xl text-slate-400">
-                Interact with a 3D Earth model and explore the
-                connection between technology, agriculture and our planet.
+                Interact with our 3D smart-agriculture device and explore
+                how solar-powered sensing technology can support modern farming.
               </p>
             </div>
 
